@@ -2,7 +2,7 @@
 
 The EU-level geopolitical tension index is constructed from large-scale collections of local newspaper articles in Germany, France, Italy, and Spain.
 
-At monthly frequency, articles are classified using a supervised BERT-based text classification model fine-tuned to identify geopolitical content. The model distinguishes among multiple categories of geopolitical risk—including war and military conflict, terrorism and insurgency, cyber warfare, trade disputes, financial sanctions, regional disintegration, energy and resource conflicts, global governance tensions, nuclear proliferation, and territorial disputes—as well as a non-geopolitical category.
+At monthly frequency, articles are classified using a supervised BERT-based text classification model fine-tuned to identify geopolitical content. The model distinguishes among multiple categories of geopolitical risk, including war and military conflict, terrorism and insurgency, cyber warfare, trade disputes, financial sanctions, regional disintegration, energy and resource conflicts, global governance tensions, nuclear proliferation, and territorial disputes.
 
 For each country and month, the geopolitical tension index is computed as the share of articles classified as geopolitical relative to the total number of articles published. The EU-level index aggregates these country-level measures across Germany, France, Italy, and Spain.
 
